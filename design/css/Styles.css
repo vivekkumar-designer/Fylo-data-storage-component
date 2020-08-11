@@ -1,0 +1,171 @@
+body{
+     margin: 0;
+     padding: 0;
+     font-family: 'Raleway', sans-serif;
+     font-size: 13px;
+     color: white;
+      text-align: justify;
+      height: 450px;
+      background-color: hsl(229, 57%, 11%);
+}
+.container{
+     background-color: hsl(229, 57%, 11%);
+     width:300px;
+     height:200px;
+     position:relative;
+     top:250px;
+     left:275px;
+}
+.box1{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    border-top-right-radius: 90px;
+    width: 300px;
+    height: 180px;
+    padding-top:50px;
+}
+.box2{
+    position: relative;
+    left:650px;
+    top:125px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+}
+
+.button{
+    display: inline-block;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%); 
+}
+.fylo-icon{
+    max-width: 135px;
+     max-height: 90px;
+    padding: 15px;
+}
+.toolset{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-desktop{
+    height:334px;
+    width: 1400px;
+    margin-bottom: 0;
+}
+
+#storage-info {
+    position: relative;
+    left:650px;
+    top:125px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+}
+
+    .speech-bubble {
+        position: absolute;
+        top: -50px;
+        right: 40px;
+        width: 150px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border-bottom-right-radius: 0;
+        background: white;
+    }
+
+        .speech-bubble::after {
+            content: '';
+            position: absolute;
+            top: 55px;
+            right: 0px;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-top-color: white;
+            border-right-color: white;
+            z-index: 2;
+        }
+
+        #one85 {
+            color: black;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    
+        #gb {
+            padding: 5px;
+            color: hsl(229, 7%, 55%);
+        }
+
+    #used-text {
+        font-weight: 700;
+    }
+
+    .usage-bar {
+        margin-left: 40px;
+        width: 80%;
+        height: 15px;
+        margin: 15px 0;
+        border: 5px solid hsl(229, 57%, 11%);
+        border-radius: 20px;
+        background-color: hsl(229, 57%, 11%);
+    }
+
+        .used {
+           width: 81.5%;
+            height: 100%;
+            border-radius: 20px;    
+            background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        }
+
+        .used-ball {
+            position: relative;
+            top: 2px;
+            right: 3px;
+            width: 15px;
+            height: 75%;
+            border-radius: 100px;
+            float: right;
+            background-color: white;
+    }
+
+    .storage-limits {
+        margin-left: 40px;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+    }
+.attribution {
+position: absolute;
+z-index: 2;
+bottom: 0;
+padding: 5px;
+font-size: 11px; text-align: center;
+color:white;
+}
+
+.attribution a {
+text-decoration: none;
+}
+footer{
+    position: relative;
+    bottom: 25px;
+    left:45%;
+}
+.link{
+    color: white;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="design/css/Styles.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box1">
+      <img class="fylo-icon" src="images/logo.svg" alt="">
+      <div class="toolset">
+      <button class="button">
+        <img src="images/icon-document.svg"
+          alt="Upload document"></button>
+      <button class="button">
+        <img 
+          src="images/icon-folder.svg"
+          alt="Upload folder"></button>
+      <button class="button">
+        <img 
+          src="images/icon-upload.svg"
+          alt="Upload file"></button></div>
+      
+    </div>
+  </div>
+  <div id="storage-info" class="content-box">
+    <p style="padding-top:20px; margin-left: 40px;">You have just used <span id="used-text">815 GB</span> of your storage</p>
+        <div class="usage-bar" style="margin-left:40px;">
+          <div class="used">
+            <div class="used-ball"></div>
+          </div>
+        </div>
+        <div class="storage-limits">
+            <span>0 GB</span>
+            <span>1000 GB</span>
+        </div>
+        <div class="speech-bubble">
+          <div id="one85">185</div><div id="gb">GB LEFT</div>
+        </div>
+  </div>
+  </div>
+
+<div>
+  <img class="bg-desktop" src="images/bg-desktop.png"  alt="">
+  </div>
+</body>
+<footer>
+  <div class="attribution">
+  Challenge by <a class="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a class="link" href="#">VivoDeveloper</a>.</footer>
+</html>
